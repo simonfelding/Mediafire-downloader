@@ -3,12 +3,12 @@
 A modern, fast, and efficient bulk downloader for MediaFire links with a clean web interface. Built with Python Flask and modern web technologies.
 
 <p align="center">
-  <img src="screenshot.png" alt="MediaFire Bulk Downloader Interface">
+  <img src="https://i.ibb.co/Jjc4dDM1/Screenshot-2025-01-29-055521.png" alt="MediaFire Bulk Downloader Interface">
 </p>
 
 ## Created By
 **Aamir**
-- GitHub: [github.com/aamir](https://github.com/aamir)
+- GitHub: [github.com/aamir](https://github.com/aamirxs)
 
 ## Features
 
