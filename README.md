@@ -23,17 +23,7 @@ A modern, fast, and efficient bulk downloader for MediaFire links with a clean w
 - 📝 Comprehensive error logging
 
 ## Quick Start
-
-### Prerequisites
-- Python 3.7+
-- pip (Python package manager)
-
-### Installation
-
-1. Clone the repository: bash <code>git clone https://github.com/aamirxs/Mediafire-downloader</code>
-2. Navigate to the project directory: bash <code>cd Mediafire-downloader</code>
-3. Install dependencies: bash <code>pip install -r requirements.txt</code>
-4. Run the application: bash <code>python app.py</code>
+`docker run --rm -v ./:/download -p 5000:5000 ghcr.io/simonfelding/mediafire-downloader:latest` 
 
 ### Usage
 
@@ -41,9 +31,3 @@ A modern, fast, and efficient bulk downloader for MediaFire links with a clean w
 2. Enter the MediaFire link and click "Download"
 3. Adjust the number of simultaneous downloads and click "Start"
 4. Monitor the progress and status of your downloads
-
-
-
-
-            
-
