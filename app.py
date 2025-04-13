@@ -82,4 +82,4 @@ def control_download():
     return jsonify({'success': success})
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    app.run(debug=True if os.getenv("DEBUG") == "true" else False) 
