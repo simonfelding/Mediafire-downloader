@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 import os
+from pathlib import Path
 from mediafire_downloader import MediaFireDownloader
 
 app = Flask(__name__)
@@ -7,8 +8,9 @@ app = Flask(__name__)
 downloader = None
 
 # Ensure downloads directory exists
-DOWNLOAD_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'downloads')
-os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+DOWNLOAD_DIR = Path("/download")
+DOWNLOAD_DIR.mkdir(exist_ok=True)
+print("Download dir: ", DOWNLOAD_DIR)
 
 @app.route('/')
 def index():
